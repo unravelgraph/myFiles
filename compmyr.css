@@ -57,9 +57,7 @@
 }
 .myr-title-accent {
 	font-size: 40px; font-weight:bold; 
-	background: -webkit-linear-gradient(var(--color-accent), var(--color-accent2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+	color: var(--color-accent);
 	position: relative; top:10px; left: 25px;
 	z-index:2;
 }
