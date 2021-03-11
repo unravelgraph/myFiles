@@ -19,7 +19,7 @@
 
 /*background container*/
 .myr-bod {
-	background: linear-gradient(45deg, var(--gradient-1));
+	background: linear-gradient(45deg, var(--color-accent) 0%, var(--color-accent2) 100%);
 	margin:0 auto;
 	width: 400px;
 	padding: 2px;
@@ -53,7 +53,7 @@
 }
 .myr-title-accent {
 	font-size: 40px; font-weight:bold; 
-	background: -webkit-linear-gradient(var(--gradient-1)); 
+	background: -webkit-linear-gradient(var(--color-accent) 0%, var(--color-accent2) 100%;); 
 	-webkit-background-clip: text; -webkit-text-fill-color: transparent; 
 	position: relative; top:10px; left: 25px;
 }
