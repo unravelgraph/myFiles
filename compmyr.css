@@ -17,14 +17,59 @@
 }
 
 /*background container*/
-.myr-bod {background: var(--gradientc1); background: linear-gradient(45deg, var(--gradientc1) 0%, var(--gradientc2) 100%); margin:0 auto; width: 400px; padding: 2px;border: 10px solid var(--color-bg);}
-.myr-inner- {background: var(--color-bg); padding: 10px;font-family: 'Poppins';font-size: 12px;color:var(--cblack);}
+.myr-bod {
+	background: var(--gradientc1);
+	background: linear-gradient(45deg, var(--gradientc1) 0%, var(--gradientc2) 100%);
+	margin:0 auto;
+	width: 400px;
+	padding: 2px;
+	border: 10px solid var(--color-bg);
+}
+.myr-inner- {
+	background: var(--color-bg); 
+	padding: 10px;
+	font-family: 'Poppins';
+	font-size: 12px;
+	color:var(--cblack);
+}
 
-.myr-h1 {text-shadow: 0 0 5px var(--cwhite); font-family: 'montserrat'; background: var(--gradientc1); padding: 2px 10px; font-size: 10px; text-transform: uppercase;border: 1px solid var(--cwhite);}
+.myr-h1 {
+	text-shadow: 0 0 5px var(--cwhite); 
+	font-family: 'montserrat'; 
+	background: var(--gradientc1); 
+	padding: 2px 10px; 
+	font-size: 10px; 
+	text-transform: uppercase;
+	border: 1px solid var(--cwhite);
+}
 
-.halfside { width: 90px; height: 60px; background: var(--color-accentgray); border-bottom-right-radius: 100px; border-top-right-radius: 100px; display: inline-flex;}
-.lnr-moon-title {font-size: 40px; font-weight:bold; background: -webkit-linear-gradient(var(--gradientc1), var(--gradientc2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; position: relative;top:10px;left: 25px;}
+.halfside { 
+	width: 90px; height: 60px; 
+	background: var(--color-accentgray); border-bottom-right-radius: 100px; border-top-right-radius: 100px; 
+	display: inline-flex;
+}
+.lnr-moon-title {
+	font-size: 40px; font-weight:bold; 
+	background: -webkit-linear-gradient(var(--gradientc1), var(--gradientc2)); 
+	-webkit-background-clip: text; -webkit-text-fill-color: transparent; 
+	position: relative; top:10px; left: 25px;
+}
 
-.myr-img-side {width: 140px; flex-wrap: wrap; gap: 4px}
-.myr-ava- {width: 140px; height: 70px; object-fit: cover;border: 2px solid var(--cwhite);}
-.myr-ava-side {height: 150px; width: 216px;overflow:auto; border:2px solid var(--cwhite);background: var(--cwhite);padding: 6px; text-align: justify; font-size:10px;color:(--cblack);}
+.myr-img-side {width: 140px; flex-wrap: wrap;}
+.myr-ava- {
+	width: 140px; 
+	height: 70px; 
+	object-fit: cover;
+	border: 2px solid var(--cwhite);
+	margin-bottom: 2px
+}
+.myr-ava-side {
+	height: 150px; width: 200px;
+	overflow:auto; 
+	border:2px solid var(--cwhite);
+	background: var(--cwhite);
+	padding: 6px; 
+	text-align: justify; 
+	font-size:10px;
+	color:(--cblack);
+}
