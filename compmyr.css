@@ -76,7 +76,8 @@
 	margin-bottom: 2px
 }
 .myr-ava-side {
-	
+	height: 144px; width: 210px; 
+	margin-left: 4px;
 	overflow:auto; 
 	border:2px solid var(--cwhite);
 	background: var(--cwhite);
@@ -84,4 +85,9 @@
 	text-align: justify; 
 	font-size:10px;
 	color:(--cblack);
+}
+
+.myr-inner- ul {
+	list-style-type: none;
+	display: inline;
 }
