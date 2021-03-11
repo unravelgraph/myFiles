@@ -6,7 +6,7 @@
 	--cwhite: #fff;
     --color-accent: rgba(77,47,43,1);
 	--color-accent2: rgba(196,132,73,1);
-    --color-accentgray: #E3E4E6;
+    --accentgray: #E3E4E6;
     --color-pill: #ffffff;
     --gap-size: 16px;
     --ease: cubic-bezier(0.4, 0.0, 0.2, 1);
@@ -48,12 +48,12 @@
 
 .halfside { 
 	width: 90px; height: 60px; 
-	background: var(--color-accentgray); border-bottom-right-radius: 100px; border-top-right-radius: 100px; 
+	background: var(--accentgray); border-bottom-right-radius: 100px; border-top-right-radius: 100px; 
 	display: inline-flex;
 }
 .myr-title-accent {
 	font-size: 40px; font-weight:bold; 
-	background: -webkit-linear-gradient(45deg, var(--gradient-1)); 
+	background: -webkit-linear-gradient(var(--gradient-1)); 
 	-webkit-background-clip: text; -webkit-text-fill-color: transparent; 
 	position: relative; top:10px; left: 25px;
 }
