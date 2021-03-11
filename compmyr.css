@@ -57,7 +57,7 @@
 }
 .myr-title-accent {
 	font-size: 40px; font-weight:bold; 
-	color: var(--color-accent);
+	color: var(--color-accent) !important;
 	position: relative; top:10px; left: 25px;
 	z-index:2;
 }
