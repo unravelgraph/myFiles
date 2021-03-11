@@ -19,8 +19,7 @@
 
 /*background container*/
 .myr-bod {
-	background: var(--gradientc1);
-	background: linear-gradient(45deg, var(--gradientc1) 0%, var(--gradientc2) 100%);
+	background: linear-gradient(45deg, var(--gradient-1));
 	margin:0 auto;
 	width: 400px;
 	padding: 2px;
@@ -37,13 +36,15 @@
 .myr-h1 {
 	text-shadow: 0 0 5px var(--cwhite); 
 	font-family: 'montserrat';
-	font-weight:
-	background: var(--gradientc1); 
+	font-weight: 800;
+	background: var(--color-accent); 
 	padding: 2px 10px; 
 	font-size: 10px; 
 	text-transform: uppercase;
 	border: 1px solid var(--cwhite);
 }
+
+.
 
 .halfside { 
 	width: 90px; height: 60px; 
@@ -52,7 +53,7 @@
 }
 .myr-title-accent {
 	font-size: 40px; font-weight:bold; 
-	background: -webkit-linear-gradient(var(--gradientc1), var(--gradientc2)); 
+	background: -webkit-linear-gradient(45deg, var(--gradient-1)); 
 	-webkit-background-clip: text; -webkit-text-fill-color: transparent; 
 	position: relative; top:10px; left: 25px;
 }
