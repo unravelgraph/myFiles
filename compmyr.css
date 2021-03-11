@@ -4,8 +4,8 @@
     --color-text: rgba(255, 255, 255, 0.87);
     --cblack: #010203;
 	--cwhite: #fff;
-    --color-accent: #4D2F2B;
-	--color-accent2: #C48449;
+    --color-accent: rgba(77,47,43,1);
+	--color-accent2: rgba(196,132,73,1);
     --color-accentgray: #E3E4E6;
     --color-pill: #ffffff;
     --gap-size: 16px;
