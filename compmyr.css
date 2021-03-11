@@ -45,9 +45,12 @@
 	border: 1px solid var(--cwhite);
 }
 
-.
+.myrbacktitle {
+	background: linear-gradient(45deg, var(--gradient-1)); 
+	border: 1px solid var(--cwhite); 
+}
 
-.halfside { 
+.myrbacktitle .halfside { 
 	width: 90px; height: 60px; 
 	background: var(--accentgray); border-bottom-right-radius: 100px; border-top-right-radius: 100px; 
 	display: inline-flex;
@@ -57,6 +60,12 @@
 	background: -webkit-linear-gradient(var(--color-accent) 0%, var(--color-accent2) 100%;); 
 	-webkit-background-clip: text; -webkit-text-fill-color: transparent; 
 	position: relative; top:10px; left: 25px;
+	z-index:2;
+}
+.myrbacktitle .persotitle {
+	font-size: 20px; font-family: 'Montserrat'; font-weight:800; 
+	display: inline-flex;justify-content:flex-end; 
+	width: 240px;text-align: right;color:var(--cwhite);
 }
 
 .myr-img-side {width: 140px; flex-wrap: wrap;}
