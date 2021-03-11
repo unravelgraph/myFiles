@@ -14,6 +14,7 @@
 	--color-bg: #F5F5F5;
 	--gradientc1: rgba(34,193,195,1);
 	--gradientc2: rgba(253,187,45,1);
+	--gradient#1: var(--color-accent) 0%, var(--color-accent2) 100%;
 }
 
 /*background container*/
