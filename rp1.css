@@ -1,7 +1,7 @@
 myr {display: block;}
 myr .container {width: 440px; border-radius: 25px;padding: 30px;background:white; font-family: montserrat; font-size: 8pt;}
-myr .inside {width: 380px; margin: 0 auto;}
-myr .head {display: inline-flex;z-index:2;}
-myr .imgrp {background: linear-gradient(to right, var(--color-button), var(--color-button)), background-blend-mode: color; background-size: auto 60px; width:90px; height: 50px; border-top-right-radius: 25px;}
-myr .titlerp {align-self: flex-end;text-transform: uppercase;position:relative; top: -4px; left: 8px;font-family: 'Courier new';font-style: italic;}
-myr .bottom {border-bottom: 4px solid var(--color-button); display: block;z-index:1;margin-top: -4px; margin-bottom: 4px;}
+.container .inside {width: 380px; margin: 0 auto;}
+.inside .head {display: inline-flex;z-index:2;}
+.head .imgrp {background: linear-gradient(to right, var(--color-button), var(--color-button)), background-blend-mode: color; background-size: auto 60px; width:90px; height: 50px; border-top-right-radius: 25px;}
+.head .titlerp {align-self: flex-end;text-transform: uppercase;position:relative; top: -4px; left: 8px;font-family: 'Courier new';font-style: italic;}
+.inside .bottom {border-bottom: 4px solid var(--color-button); display: block;z-index:1;margin-top: -4px; margin-bottom: 4px;}
