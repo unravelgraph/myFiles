@@ -1,0 +1,5 @@
+input[type="checkbox"] {display: none;} input[type="checkbox"]:checked + label {color: var(--co1);} label:hover {color: var(--co1);} .spells {display: inline-grid; grid-template-columns: 100px 100px 100px 100px; gap: 10px 10px;} .spells .spell {width: 100px; height: 100px; background-color: yellow; color: black;}
+
+input#blackmagic:checked ~ .spells .spell:not([data-category*="blackmagic"]) {display: none;} 
+input#whitemagic:checked ~ .spells .spell:not([data-category*="whitemagic"]) {display: none;}
+input#elemental:checked ~ .spells .spell:not([data-category*="elemental"]) {display: none;}
