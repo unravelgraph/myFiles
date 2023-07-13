@@ -38,6 +38,7 @@
     grid-template-columns: 100%;
     box-shadow: var(--shadowBox);
     padding-left: 65px;
+    backdrop-filter:blur(20px);
 }
 
 
@@ -793,10 +794,6 @@ a.FAM-attachment-thumb {
     color: #F33
 }
 
-
-
-
-
 #FAM-msg-container {
     display: inline-block;
     vertical-align: top;
@@ -880,7 +877,7 @@ a.FAM-attachment-thumb {
 .FAM-chat-avatar {
     grid-row: 2;
     align-self: center;
-    padding: 15px 5px 15px 20px;
+    padding: 14px 3px 13px 18px;
     border-radius: 10px 0 0 10px;
     opacity: .8;
     
