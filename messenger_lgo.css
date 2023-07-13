@@ -108,6 +108,7 @@
     text-overflow: ellipsis;
     flex-grow: 99;
     margin: 0;
+    color: var(--contrast);
 }
 
 
