@@ -192,12 +192,10 @@
 
 .FAM-viewing-topic:before {
     top: 0px;
-    background: var(--FAM-gradientTop);
 }
 
 .FAM-viewing-topic:after {
     bottom: 0;
-    background: var(--FAM-gradientBot);
 }
 
 #FAM-attach-success,
