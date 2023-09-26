@@ -7,10 +7,10 @@ const classeOngletActif = "onglet-actif";
 
 /* Liste des catégories à onglets, à éditer selon besoins */
 const listeCategoriesRPG = [
+    { id : "c3", titre : "city"},
     { id : "c2", titre : "harry potter"},
     { id : "c5", titre : "criminalité"},
-    { id : "c6", titre : "fantastique"},
-    { id : "c3", titre : "city"}
+    { id : "c6", titre : "fantastique"}
 ];
 
 const forumsRPG = listeCategoriesRPG.map(el => el.id);
