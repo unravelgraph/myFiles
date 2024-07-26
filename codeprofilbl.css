@@ -1,5 +1,6 @@
 .profilaes {
     --cogroupe: var(--couleur1);
+    container-name: profilaes;
 }
 .profilaes h4 {
     margin: 0;
@@ -15,13 +16,22 @@
     --cogroupe: var(--group3);
 }
 
-.profilaes ul ul:first-of-type li {
+@container profilaes (width > 360px) {
+    .profilaes ul {
+        display:grid;
+        grid-template: auto / 1fr 1fr;
+    }
+    
+    .profilaes ul ul {
+        display:block!important;
+    }
+
+}
+.profilaes ul ul li {
     display: flex;
     gap: 10px;
 }
-.profilaes.valigncenter ul ul:first-of-type li {
-    align-items: center;
-}
+
 .profilaes .charaimg {
     height: fit-content;
     width: fit-content !important;
