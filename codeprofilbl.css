@@ -38,11 +38,12 @@
 .profilaes .charaimg.border {
     border: 1px solid var(--cogroupe);
     padding: 4px;
+    border-radius: 5px;
 }
 .profilaes .charaimg.bw img {
     filter: grayscale(1);
 }
-.profilaes .charaimg.rond, .profilaes .charaimg.rond img {
+.profilaes .charaimg.rond, .profilaes .charaimg.rond img, .profilaes .charaimg.border.rond {
     border-radius: 50%;
 }
 .profilaes .charaimg.gradient td:after {
