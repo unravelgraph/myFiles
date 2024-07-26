@@ -1,6 +1,15 @@
 .profilaes {
     --cogroupe: var(--couleur1);
+    display: block;
+    container: profilaes / inline-size;
 }
+
+@container profilaes (width > 360px) {
+  ul {display:grid;grid-template: auto / 1fr 1fr;}
+  ul ul {display:block!important;}
+
+}
+
 .profilaes h4 {
     margin: 0;
     color: var(--cogroupe);
