@@ -1,6 +1,6 @@
 .profilaes {
     --cogroupe: var(--couleur1);
-    container-name: profilaes;
+    container: profilaes / inline-size;
 }
 .profilaes h4 {
     margin: 0;
