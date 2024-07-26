@@ -1,0 +1,63 @@
+.profilaes {
+    --cogroupe: var(--couleur1);
+}
+.profilaes h4 {
+    margin: 0;
+    color: var(--cogroupe);
+}
+.profilaes .ego {
+    --cogroupe: var(--group1);
+}
+.profilaes .savior {
+    --cogroupe: var(--group2);
+}
+.profilaes .messy {
+    --cogroupe: var(--group3);
+}
+.profilaes ul:first-of-type li {
+    margin-bottom: 15px;
+}
+.profilaes ul ul:first-of-type li {
+    display: flex;
+    gap: 10px;
+}
+.profilaes.valigncenter ul ul:first-of-type li {
+    align-items: center;
+}
+.profilaes .charaimg {
+    height: fit-content;
+    width: fit-content !important;
+    overflow: hidden;
+    position: relative;
+}
+.profilaes .charaimg img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.profilaes .charaimg.border {
+    border: 1px solid var(--cogroupe);
+    padding: 4px;
+}
+.profilaes .charaimg.bw img {
+    filter: grayscale(1);
+}
+.profilaes .charaimg.rond, .profilaes .charaimg.rond img {
+    border-radius: 50%;
+}
+.profilaes .charaimg.gradient td:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background: linear-gradient(315deg, var(--cogroupe), transparent);
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: darken;
+}
+.profilaes .charalien {
+    font-size: 12px;
+    text-transform: none;
+    text-align: justify;
+}
