@@ -14,9 +14,7 @@
 .profilaes .messy {
     --cogroupe: var(--group3);
 }
-.profilaes ul:first-of-type li {
-    margin-bottom: 15px;
-}
+
 .profilaes ul ul:first-of-type li {
     display: flex;
     gap: 10px;
