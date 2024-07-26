@@ -48,7 +48,7 @@
 .profilaes .charaimg.bw img {
     filter: grayscale(1);
 }
-.profilaes .charaimg.rond, .profilaes .charaimg.rond img {
+.profilaes .charaimg.rond, .profilaes .charaimg.rond img, .profilaes .charaimg.rond.gradient td:after{
     border-radius: 50%;
 }
 .profilaes .charaimg.gradient td:after {
@@ -56,10 +56,11 @@
     position: absolute;
     top: 0;
     left: 0;
+    margin: 5px;
     border-radius: 5px;
     background: linear-gradient(315deg, var(--cogroupe), transparent 75%);
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 11px);
+    height: calc(100% - 11px);
     mix-blend-mode: overlay;
 }
 .profilaes .charalien {
