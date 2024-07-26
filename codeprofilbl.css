@@ -34,6 +34,7 @@
     width: fit-content !important;
     overflow: hidden;
     position: relative;
+    padding: 4px;
 }
 .profilaes .charaimg img {
     width: 50px;
@@ -42,7 +43,6 @@
 }
 .profilaes .charaimg.border {
     border: 1px solid var(--cogroupe);
-    padding: 4px;
     border-radius: 5px;
 }
 .profilaes .charaimg.bw img {
