@@ -113,7 +113,7 @@
     opacity: 0.7;
 }
 .profilrps .fini td:before {
-    content: '\ebde';
+    content: '\eb69';
     color: var(--couleur1);
 }
 /* CODE MSG EXPLICATION :
