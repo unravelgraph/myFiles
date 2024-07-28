@@ -98,13 +98,14 @@
 }
 
 .profilrps table font[face="Inter"] {color:var(--cogroupe);}
+
 .profilrps table td:before {
     content: '';
     font-family: 'cappuccicons';
-    position: relative;
     font-size: 10px;
     padding-right: 5px;
 }
+
 .profilrps .encours td:before {
     content: '\ebde';
     color: var(--couleur1);
