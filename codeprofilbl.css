@@ -4,23 +4,26 @@
     container: profilaes / inline-size;
 }
 
+.profilaes li br, .profilrps li br {
+    display: none;
+}
+
+.profilaes li li br, .profilrps li table br {
+    display: block!important;
+}
+
+.profilaes .ego, .profilrps .ego {
+    --cogroupe: var(--group1);
+}
+.profilaes .savior, .profilrps .savior {
+    --cogroupe: var(--group2);
+}
+.profilaes .messy, .profilrps .messy {
+    --cogroupe: var(--group3);
+}
+
+/* LIENS */
 .profilaes table {font-size: 12px;}
-
-.profilrps {
-   --cogroupe: var(--textColorAccent);
-    display: block;
-}
-
-.profilrps table {
-    font-size: 13px;
-    text-transform: none;
-}
-
-.profilrps table h4 {
-    display: inline;
-    font-family: var(--stfont);
-    text-transform: uppercase;
-}
 
 @container profilaes (width > 360px) {
   ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;}
@@ -32,27 +35,9 @@
     margin: 0;
     color: var(--cogroupe);
 }
-.profilaes .ego, .profilrps .ego {
-    --cogroupe: var(--group1);
-}
-.profilaes .savior, .profilrps .savior {
-    --cogroupe: var(--group2);
-}
-.profilaes .messy, .profilrps .messy {
-    --cogroupe: var(--group3);
-}
-
 .profilaes ul ul li {
     display: flex;
     gap: 10px;
-}
-
-.profilaes li br, .profilrps li br {
-    display: none;
-}
-
-.profilaes li li br, .profilrps li table br {
-    display: block!important;
 }
 
 .profilaes .charaimg {
@@ -94,7 +79,43 @@
     text-align: justify;
 }
 
+/* RPS */
+.profilrps {
+   --cogroupe: var(--textColorAccent);
+    display: block;
+    margin-left: 6px;
+}
 
+.profilrps table {
+    font-size: 13px;
+    text-transform: none;
+}
+
+.profilrps table h4 {
+    display: inline;
+    font-family: var(--stfont);
+    text-transform: uppercase;
+}
+
+.profilrps table font[face="Inter"] {color:var(--cogroupe);}
+.profilrps td:before {
+    content: '';
+    font-family: 'cappuccicons';
+    position: relative;
+    font-size: 10px;
+    padding-right: 5px;
+}
+.profilrps .encours td:before {
+    content: '\ebde';
+    color: var(--couleur1);
+}
+.profilrps .fini {
+    opacity: 0.7;
+}
+.profilrps .fini td:before {
+    content: '\ebde';
+    color: var(--couleur1);
+}
 /* CODE MSG EXPLICATION :
 
 <center><h2>codes de profils  :smalh: </h2><datum>credit</datum> <b>.unravel / myr</b> pour <u5>blinding lights</u5>
