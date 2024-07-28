@@ -1,9 +1,10 @@
-.profilaes, .profilaes table {
+.profilaes {
     --cogroupe: var(--textColorAccent);
     display: block;
     container: profilaes / inline-size;
-    font-size: 12px;
 }
+
+.profilaes table {font-size: 12px;}
 
 .profilrps {
    --cogroupe: var(--textColorAccent);
