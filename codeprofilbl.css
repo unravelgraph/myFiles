@@ -90,6 +90,10 @@
     width: calc(100% - 6px)!important;
 }
 
+.profilrps li {width: 375px;}
+.profilrps li:not(:first-of-type) {padding-top: 5px;}
+.profilrps li:not(:last-of-type) {border-bottom: 1px solid var(--bw5);padding-bottom: 5px;}
+
 .profilrps table {
     font-size: 13px;
     text-transform: none;
@@ -122,6 +126,7 @@
     content: '\eb69';
     color: var(--couleur2);
 }
+.profilrps .fini h4 a:hover {color:var(--couleur2);}
 
 .profilrps table blockquote {
     margin: 0;
