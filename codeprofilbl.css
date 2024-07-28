@@ -175,7 +175,8 @@
 }
 
 @container profilsms (width > 360px) {
-    ul {display: grid; grid-template: auto / 1fr 1fr; column-gap:10px;}
+    ul {width: 393px;display: grid; grid-template: auto / 1fr 1fr; column-gap:10px;}
+    .profilsms li:last-of-type {border-bottom: 1px solid var(--bw5);padding-bottom: 5px;}
 }
 
 .profilsms li {position:relative;}
