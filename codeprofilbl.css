@@ -153,6 +153,7 @@
     z-index: 1;
     display: none;
     text-align:justify;
+    font-size: 11px;
 }
 
 .profilrps table h3:hover + blockquote {
