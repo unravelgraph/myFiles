@@ -116,6 +116,7 @@
     display: inline;
     background: var(--transp8);
     padding: 3px 5px;
+    border-radius: 5px;
 }
 .profilrps table h4 {
     display: inline;
