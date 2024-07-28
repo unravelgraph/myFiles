@@ -98,7 +98,7 @@
 }
 
 .profilrps table font[face="Inter"] {color:var(--cogroupe);}
-.profilrps td:before {
+.profilrps table td:before {
     content: '';
     font-family: 'cappuccicons';
     position: relative;
