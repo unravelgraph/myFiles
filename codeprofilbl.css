@@ -1,5 +1,5 @@
 .profilaes {
-    --cogroupe: var(--couleur1);
+    --cogroupe: var(--textColorAccent);
     display: block;
     container: profilaes / inline-size;
 }
