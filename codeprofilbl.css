@@ -97,7 +97,7 @@
     container: profil / inline-size
 }
 
-.profilrps li, .profilsms li {
+.profilrps li, .profilsms li, .profilmulti li {
     font-size: 13px!important;
     text-transform: none;
 }
@@ -106,8 +106,8 @@
     li {width: 375px;}
 }
     
-.profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type) {padding-top: 5px;}
-.profilrps li:not(:last-of-type), .profilsms li:not(:last-of-type) {
+.profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type), .profilmulti li:not(:first-of-type) {padding-top: 5px;}
+.profilrps li:not(:last-of-type), .profilsms li:not(:last-of-type), .profilmulti li:not(:last-of-type) {
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
 }
 .profilrps ul li table {display: flex;}
@@ -148,7 +148,7 @@
 }
 .profilrps .fini h4 a:hover {color:var(--couleur2);}
 
-.profilrps table blockquote, .profilsms blockquote {
+.profilrps table blockquote, .profilsms blockquote, .profilmulti blockquote {
     margin: 0;
     background: var(--transp8);
     border: 1px solid var(--bw3);
@@ -160,14 +160,14 @@
     font-size: 11px;
 }
 
-.profilrps table h3:hover + blockquote, .profilsms h3:hover + blockquote {
+.profilrps table h3:hover + blockquote, .profilsms h3:hover + blockquote, .profilmulti h3:hover + blockquote {
     display: block;
     height: fit-content;
     padding: 5px 0;
 }
 
 /* SMS */
-.profilsms {
+.profilsms, .profilmulti {
     display: block;
     margin-left: 10px;
     width: calc(100% - 10px)!important;
