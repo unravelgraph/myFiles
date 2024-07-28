@@ -112,7 +112,7 @@
 }
 
 .profilrps table {font-size: 13px;position: relative;}
-.profilrps table h3 {
+.profilrps table h3, .profilsms h3 {
     display: inline;
     background: var(--transp8);
     padding: 3px 5px;
@@ -148,7 +148,7 @@
 }
 .profilrps .fini h4 a:hover {color:var(--couleur2);}
 
-.profilrps table blockquote {
+.profilrps table blockquote. .profilsms blockquote {
     margin: 0;
     background: var(--transp8);
     border: 1px solid var(--bw3);
@@ -160,7 +160,7 @@
     font-size: 11px;
 }
 
-.profilrps table h3:hover + blockquote {
+.profilrps table h3:hover + blockquote, .profilsms h3:hover + blockquote {
     display: block;
     height: fit-content;
     padding: 5px 0;
@@ -172,6 +172,7 @@
     margin-left: 10px;
     width: calc(100% - 10px)!important;
 }
+.profilsms li {position:relative;}
 .profilsms li a {font-size:0;}
 .profilsms li a:before {
     content: '\e9d5';
