@@ -84,6 +84,7 @@
    --cogroupe: var(--textColorAccent);
     display: block;
     margin-left: 6px;
+    width: calc(100% - 6px)!important;
 }
 
 .profilrps table {
@@ -93,11 +94,11 @@
 
 .profilrps table h4 {
     display: inline;
-    font-family: var(--stfont);
+    font-family: var(--font1);
     text-transform: uppercase;
 }
 
-.profilrps table font[face="Inter"] {color:var(--cogroupe);}
+.profilrps table font[face="Lato"] {color:var(--cogroupe);}
 
 .profilrps table td:before {
     content: '';
@@ -115,7 +116,7 @@
 }
 .profilrps .fini td:before {
     content: '\eb69';
-    color: var(--couleur1);
+    color: var(--couleur2);
 }
 /* CODE MSG EXPLICATION :
 
