@@ -1,3 +1,6 @@
+.profile_content {
+    overflow:visible;
+}
 .profilaes {
     --cogroupe: var(--textColorAccent);
     display: block;
@@ -96,6 +99,7 @@
     display: inline;
     font-family: var(--font1);
     text-transform: uppercase;
+    font-size: 12px;
 }
 
 .profilrps table font[face="Inter"] {color:var(--cogroupe);}
@@ -118,7 +122,25 @@
     content: '\eb69';
     color: var(--couleur2);
 }
-/* CODE MSG EXPLICATION :
+
+.profilrps table blockquote {
+    margin: 0;
+    background: var(--transp7);
+    border: 1px solid var(--bw3);
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+    text-align:justify;
+}
+
+.profilrps table:hover blockquote {
+    display: block;
+    height: fit-content;
+    padding: 5px 0;
+}
+
+/* CODE MSG EXPLICATION LIENS:
 
 <center><h2>codes de profils  :smalh: </h2><datum>credit</datum> <b>.unravel / myr</b> pour <u5>blinding lights</u5>
 
@@ -208,3 +230,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 [/list][/td][/table][/code]</div>
 
 </center>*/
+
+/* CODE MSG EXPLICATION LIENS 
+
+
+*/
