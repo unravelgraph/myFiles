@@ -83,22 +83,21 @@
 }
 
 /* RPS */
-.profilrps, .profilsms {
+.profilrps {
    --cogroupe: var(--textColorAccent);
     display: block;
     margin-left: 6px;
     width: calc(100% - 6px)!important;
 }
 
-.profilrps li, .profilsms li {width: 375px;}
+.profilrps li, .profilsms li {
+    width: 375px;
+    font-size: 13px;
+    text-transform: none;
+}
 .profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type) {padding-top: 5px;}
 .profilrps li:not(:last-of-type), .profilsms li:not(:last-of-type) {
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
-}
-
-.profilrps table {
-    font-size: 13px;
-    text-transform: none;
 }
 
 .profilrps table h4 {
@@ -148,13 +147,22 @@
 }
 
 /* SMS */
-.profilsms li {font-size:0;}
+.profilsms {
+    display: block;
+    margin-left: 10px;
+    width: calc(100% - 10px)!important;
+}
+.profilsms li a {font-size:0;}
 .profilsms li a:before {
-    content: '\e9d6';
+    content: '\e9d5';
     font-family: 'cappuccicons';
     font-size: 10px;
     padding-right: 5px;
     color:var(--textColorAccent);
+}
+.profilsms li a:hover:before {
+    transition: 300ms;
+    color: var(--couleur1);
 }
 
 /* CODE MSG EXPLICATION LIENS:
