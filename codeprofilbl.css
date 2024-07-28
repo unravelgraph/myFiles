@@ -67,7 +67,7 @@
 .charaimg.bw img {
     filter: grayscale(1);
 }
-.profilaes .charaimg.rond, .profilaes .charaimg.rond img, .profilaes .charaimg.rond.gradient td:after{
+.profilaes .charaimg.rond, .charaimg.rond img, .charaimg.rond.gradient td:after{
     border-radius: 50%;
 }
 .charaimg.gradient td:after {
