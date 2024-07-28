@@ -48,29 +48,29 @@
     gap: 10px;
 }
 
-.profilaes .charaimg {
+.charaimg {
     height: fit-content;
     width: fit-content !important;
     overflow: hidden;
     position: relative;
     padding: 4px;
 }
-.profilaes .charaimg img {
+.charaimg img {
     width: 50px;
     height: 50px;
     object-fit: cover;
 }
-.profilaes .charaimg.border {
+.charaimg.border {
     border: 1px solid var(--cogroupe);
     border-radius: 5px;
 }
-.profilaes .charaimg.bw img {
+.charaimg.bw img {
     filter: grayscale(1);
 }
 .profilaes .charaimg.rond, .profilaes .charaimg.rond img, .profilaes .charaimg.rond.gradient td:after{
     border-radius: 50%;
 }
-.profilaes .charaimg.gradient td:after {
+.charaimg.gradient td:after {
     content: '';
     position: absolute;
     top: 0;
@@ -82,7 +82,7 @@
     height: calc(100% - 11px);
     mix-blend-mode: overlay;
 }
-.profilaes .charalien {
+.charalien {
     text-transform: none;
     text-align: justify;
 }
