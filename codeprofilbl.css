@@ -19,6 +19,7 @@
 .profilrps table h4 {
     display: inline;
     font-family: var(--stfont);
+    text-transform: uppercase;
 }
 
 @container profilaes (width > 360px) {
