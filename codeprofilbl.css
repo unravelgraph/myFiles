@@ -176,7 +176,8 @@
 
 @container profilsms (width > 360px) {
     ul {width: 393px;display: grid; grid-template: auto / 1fr 1fr; column-gap:10px;}
-    li:last-of-type, li:nth-last-of-type(2) {border-bottom: none !important;padding-bottom: 0 !important;}
+    li:last-of-type {border-bottom: none !important;padding-bottom: 0 !important;}
+    li:nth-last-of-type(2) {border-bottom: none !important;padding-bottom: 0 !important;}
     li:not(:first-of-type, :nth-of-type(2)) {padding-top: 5px;}
     li:first-of-type {padding-top: 5px !important;}
 }
