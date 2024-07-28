@@ -98,7 +98,7 @@
     text-transform: uppercase;
 }
 
-.profilrps table font[face="Lato"] {color:var(--cogroupe);}
+.profilrps table font[face="Inter"] {color:var(--cogroupe);}
 
 .profilrps table td:before {
     content: '';
