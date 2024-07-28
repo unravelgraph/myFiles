@@ -2,6 +2,22 @@
     --cogroupe: var(--textColorAccent);
     display: block;
     container: profilaes / inline-size;
+    font-size: 12px;
+}
+
+.profilrps {
+   --cogroupe: var(--textColorAccent);
+    display: block;
+}
+
+.profilrps table {
+    font-size: 13px;
+    text-transform: none;
+}
+
+.profilrps table h4 {
+    display: inline;
+    font-family: var(--stfont);
 }
 
 @container profilaes (width > 360px) {
@@ -29,11 +45,11 @@
     gap: 10px;
 }
 
-.profilaes li br {
+.profilaes li br, .profilrps li br {
     display: none;
 }
 
-.profilaes li li br {
+.profilaes li li br, .profilrps li table br {
     display: block!important;
 }
 
@@ -72,7 +88,6 @@
     mix-blend-mode: overlay;
 }
 .profilaes .charalien {
-    font-size: 12px;
     text-transform: none;
     text-align: justify;
 }
