@@ -88,11 +88,12 @@
     display: block;
     margin-left: 6px;
     width: calc(100% - 6px)!important;
+    font-size: 13px;
 }
 
 .profilrps li, .profilsms li {
     width: 375px;
-    font-size: 13px;
+    font-size: 13px!important;
     text-transform: none;
 }
 .profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type) {padding-top: 5px;}
@@ -100,12 +101,19 @@
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
 }
 
+.profilrps table {font-size: 13px;}
+.profilrps table h3 {
+    display: inline;
+    background: var(--transp8);
+    padding: 3px 5px;
+}
 .profilrps table h4 {
     display: inline;
     font-family: var(--font1);
     text-transform: uppercase;
     font-size: 12px;
 }
+
 
 .profilrps table font[face="Inter"] {color:var(--cogroupe);}
 
@@ -131,7 +139,7 @@
 
 .profilrps table blockquote {
     margin: 0;
-    background: var(--transp7);
+    background: var(--transp8);
     border: 1px solid var(--bw3);
     border-radius: 5px;
     position: absolute;
@@ -140,7 +148,7 @@
     text-align:justify;
 }
 
-.profilrps table:hover blockquote {
+.profilrps table h3:hover + blockquote {
     display: block;
     height: fit-content;
     padding: 5px 0;
