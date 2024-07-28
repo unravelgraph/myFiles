@@ -1,4 +1,4 @@
-.profilaes {
+.profilaes, .profilaes table {
     --cogroupe: var(--textColorAccent);
     display: block;
     container: profilaes / inline-size;
