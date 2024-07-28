@@ -7,11 +7,11 @@
     container: profilaes / inline-size;
 }
 
-.profilaes li br, .profilrps li br {
+.profilaes li br, .profilrps li br, .profilmulti li br {
     display: none;
 }
 
-.profilaes li li br, .profilrps li table br {
+.profilaes li li br, .profilrps li table br, .profilmulti li table br {
     display: block!important;
 }
 
