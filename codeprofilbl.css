@@ -148,7 +148,7 @@
 }
 .profilrps .fini h4 a:hover {color:var(--couleur2);}
 
-.profilrps table blockquote. .profilsms blockquote {
+.profilrps table blockquote, .profilsms blockquote {
     margin: 0;
     background: var(--transp8);
     border: 1px solid var(--bw3);
