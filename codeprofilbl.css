@@ -15,13 +15,13 @@
     display: block!important;
 }
 
-.profilaes .ego, .profilrps .ego {
+.ego {
     --cogroupe: var(--group1);
 }
-.profilaes .savior, .profilrps .savior {
+.savior {
     --cogroupe: var(--group2);
 }
-.profilaes .messy, .profilrps .messy {
+.messy {
     --cogroupe: var(--group3);
 }
 
@@ -193,6 +193,8 @@
     transition: 300ms;
     color: var(--couleur1);
 }
+
+.profilmulti table h4 a{color:var(--cogroupe);}
 
 /* CODE MSG EXPLICATION LIENS:
 
