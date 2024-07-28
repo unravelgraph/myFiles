@@ -97,10 +97,15 @@
 }
 
 .profilrps li, .profilsms li {
-    width: 375px;
     font-size: 13px!important;
     text-transform: none;
+    container: profil / inline-size
 }
+
+@container profil (width > 360px) {
+    li {width: 375px;}
+}
+    
 .profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type) {padding-top: 5px;}
 .profilrps li:not(:last-of-type), .profilsms li:not(:last-of-type) {
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
