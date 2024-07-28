@@ -31,6 +31,8 @@
 @container profilaes (width > 360px) {
   ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;}
   ul ul {display:block!important;}
+  ul li:not(:last-of-type) {margin-bottom: 0px;}
+}
 
 }
 
@@ -38,6 +40,11 @@
     margin: 0;
     color: var(--cogroupe);
 }
+
+.profilaes ul li:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
 .profilaes ul ul li {
     display: flex;
     gap: 10px;
@@ -101,7 +108,7 @@
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
 }
 
-.profilrps table {font-size: 13px;}
+.profilrps table {font-size: 13px;position: relative;}
 .profilrps table h3 {
     display: inline;
     background: var(--transp8);
