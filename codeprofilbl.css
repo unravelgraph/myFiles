@@ -110,7 +110,7 @@
 .profilrps li:not(:last-of-type), .profilsms li:not(:last-of-type) {
     border-bottom: 1px solid var(--bw5);padding-bottom: 5px;
 }
-
+.profilrps ul li table {width: fit-content!important;}
 .profilrps table {font-size: 13px;position: relative;}
 .profilrps table h3, .profilsms h3 {
     display: inline;
