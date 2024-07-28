@@ -171,6 +171,7 @@
     display: block;
     margin-left: 10px;
     width: calc(100% - 10px)!important;
+    container: profil / inline-size
 }
 .profilsms li {position:relative;}
 .profilsms li a {font-size:0;}
