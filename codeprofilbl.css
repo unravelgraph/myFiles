@@ -171,8 +171,13 @@
     display: block;
     margin-left: 10px;
     width: calc(100% - 10px)!important;
-    container: profil / inline-size
+    container: profilsms / inline-size
 }
+
+@container profilsms (width > 360px) {
+    ul {display: grid; grid-template: auto / 1fr 1fr; column-gap:10px;}
+}
+
 .profilsms li {position:relative;}
 .profilsms li a {font-size:0;}
 .profilsms li a:before {
