@@ -332,7 +332,7 @@ c'est tout simple : chaque ligne débute par <t1>[ *]</t1>. pour chaque ligne aj
   .imgfond div:nth-of-type(3n+1) {border-right: 1px solid var(--neutralDark);}
   .imgfond div:nth-of-type(3n) {border-left: 1px solid var(--neutralDark);}
   .imgfond div:nth-of-type(n+7) {border-top: 1px solid var(--neutralDark);}
-  .imgfond .quote {display:grid;place-items:center;width:110%;padding:0 20%;text-align:right;font: bold 1em 'Default sans';color:var(--neutralDark);text-shadow: 1px 1px 1px var(--textColor);backdrop-filter:blur(2px);}
+  .imgfond .quote {display:grid;place-items:center;width:150%;padding:0 20%;text-align:right;font: bold 1em 'Default sans';color:var(--neutralDark);text-shadow: 1px 1px 1px var(--textColor);backdrop-filter:blur(2px);}
   .imgfond .quote + div {border-left:0;}
   .imgfond .star:after{content:'';position:absolute;background:var(--neutralDark);clip-path: polygon(50% 0%, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0% 50%, 40% 40%);width:30px;height:30px;--widthmove:-15px;right:var(--widthmove);z-index:9;}
   .imgfond .star.small:after{width:16px;height:16px;--widthmove:-8px;}
