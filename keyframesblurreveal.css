@@ -1,1 +1,3 @@
 @keyframes fade-in {100% {opacity: 1;filter: blur(0);}}
+
+@keyframes soundwave {50% {height:20%;} 100%{height:100%;}}
