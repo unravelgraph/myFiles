@@ -31,7 +31,7 @@
 @container profilaes (width > 360px) {width:400px;
   ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;}
   ul ul {display:block!important;}
-  ul li:not(:last-of-type) {margin-bottom: 0px;}
+  ul li:not(:last-of-type) {margin-bottom: 0px!important;}
 }
 
 .profilaes h4 {
