@@ -342,3 +342,12 @@ c'est tout simple : chaque ligne débute par <t1>[ *]</t1>. pour chaque ligne aj
   .imgfond div:nth-of-type(3):before, .imgfond div:nth-of-type(7):before {content:'';width:100%;height:100%;background:var(--couleur1);display:block;position:absolute;top:0;left:0;opacity:0.5;}
   .imgfond div:nth-of-type(7):before {background:var(--couleur2);}
 }
+
+.testmyr {
+    .codebox.spoiler {background: transparent;border: none;border-radius: 0;
+                      spoiler_title {background: transparent;color: var(--couleur1);font-weight: bold;}
+                      dd {border-left: 1px solid var(--couleur1);margin: 0;
+                          .spoiler_content {padding: 0 !important;}
+                         }
+                     }
+}
