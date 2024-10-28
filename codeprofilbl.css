@@ -344,11 +344,12 @@ c'est tout simple : chaque ligne débute par <t1>[ *]</t1>. pour chaque ligne aj
 }
 
 .testmyr {
-    .codebox.spoiler {background: transparent;border: none;border-radius: 0;
+    .codebox.spoiler {background: transparent;border: none;border-radius: 0;max-height: fit-content;
                       .spoiler_title {background: transparent;color: var(--textColor);font-weight: bold;}
                       .spoiler_title:before {content: '+'; margin-right:5px;}
-                      dd {border-left: 1px solid var(--couleur1);margin: 0;
+                      dd {margin: 0;
                           .spoiler_content {padding: 0 !important;}
                          }
+                      dt {padding:10px 0;}
                      }
 }
