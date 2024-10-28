@@ -60,6 +60,7 @@
     height: 50px;
     object-fit: cover;
 }
+.charaimg.nopad {padding:0;}
 .charaimg.border {
     border: 1px solid var(--cogroupe);
     border-radius: 5px;
