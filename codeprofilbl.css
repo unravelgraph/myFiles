@@ -61,6 +61,13 @@
     object-fit: cover;
 }
 .charaimg.nopad {padding:0;}
+.charaimg.nopad.gradient td:after {
+    margin: 0 !important;
+    width: calc(100% - 5px);
+    height: calc(100% - 5px);
+    top: 2.5px;
+    left: 2.5px;
+}
 .charaimg.border {
     border: 1px solid var(--cogroupe);
     border-radius: 5px;
