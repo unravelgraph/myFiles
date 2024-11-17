@@ -7,7 +7,8 @@
    width="4000"
    height="4000"
    viewBox="0 0 4000 4000"
-   sodipodi:docname="vecteezy_comic-speech-bubbles-comic-dialogue-on-halftone-shadows_27661655.eps"
+   sodipodi:docname="comic-speech-bubble.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +23,16 @@
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1" />
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.45375"
+     inkscape:cx="1998.8981"
+     inkscape:cy="2000"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="1821"
+     inkscape:window-y="2581"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
   <g
      id="g8"
      inkscape:groupmode="layer"
@@ -30,7 +40,7 @@
      transform="matrix(1.3333333,0,0,-1.3333333,0,4000)">
     <g
        id="g10"
-       transform="scale(0.1)">
+       transform="matrix(0.13236946,0,0,0.136101,-481.88834,-540.48448)">
       <path
          d="m 18523.9,17951.2 c 24.2,252.5 145.3,441.5 381.1,576.6 -266,37.5 -444.6,167.7 -567,396.4 -43.9,-274.9 -188.4,-450.1 -443.7,-560.1 303.4,-18.6 506,-152.7 629.6,-412.9 z m 729.8,636.1 c 367.4,-85.9 576.7,-318.5 585.4,-642.1 7.7,-283.4 -184.1,-549.1 -457.9,-634.4 -322.3,-100.3 -584.2,25.4 -816,391.6 -76.2,-388.5 -285.7,-601.8 -610.5,-621.8 -282.2,-17.4 -550,162.9 -641.9,432.2 -107.3,314.3 12.6,574.8 384.3,819.2 -212.7,10.7 -386.1,86.1 -516.2,246.7 -91,112.3 -136.5,242 -143.4,385.9 -13.1,269.9 160.3,530.8 418,628.5 303.5,115.1 562.5,16.5 828.8,-321.3 35.1,208.8 130,375 304.6,489.3 115.7,75.7 243.6,112.3 381.3,109.5 281.3,-5.8 532.6,-192.1 621.7,-457.8 102.1,-304.6 -0.2,-557.6 -338.2,-825.5"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
