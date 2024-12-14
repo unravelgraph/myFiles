@@ -1,9 +1,4 @@
-@font-face {
-	font-family: "game-icons";
-	src: url("game-icons.eot?#iefix") format("embedded-opentype"),
-url("game-icons.woff") format("woff"),
-url("game-icons.ttf") format("truetype");
-}
+@font-face {font-family: "game-icons";src: url("game-icons.eot?#iefix") format("embedded-opentype"),url("game-icons.woff") format("woff"),url("game-icons.ttf") format("truetype");}
 
 .game-icon {
 	line-height: 1;
