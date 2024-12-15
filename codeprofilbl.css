@@ -34,6 +34,12 @@
   ul li:not(:last-of-type) {margin-bottom: 0px!important;}
 }
 
+@container profilaes (width > 550px) {
+  ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;width:180px;}
+  ul ul {display:block!important;}
+  ul li:not(:last-of-type) {margin-bottom: 0px!important;}
+}
+
 .profilaes h4 {
     margin: 0;
     color: var(--cogroupe);
