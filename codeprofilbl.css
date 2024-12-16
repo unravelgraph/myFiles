@@ -28,14 +28,14 @@
 /* LIENS */
 .profilaes table {font-size: 12px;}
 
-@container profilaes (550px < width > 360px) {
+@container profilaes and (max-width: 550px) and (min-width: 360px) {
   ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;width:180px;}
   ul ul {display:block!important;}
   ul li:not(:last-of-type) {margin-bottom: 0px!important;}
 }
 
-@container profilaes (width > 550px) {
-  ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;width:180px;}
+@container profilaes and (min-width: 551px) {
+  ul {display:grid;grid-template: auto / 1fr 1fr 1fr;gap: 10px;width:180px;}
   ul ul {display:block!important;}
   ul li:not(:last-of-type) {margin-bottom: 0px!important;}
 }
