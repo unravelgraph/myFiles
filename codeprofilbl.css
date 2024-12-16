@@ -121,7 +121,7 @@
 }
 
 @container profil (min-width: 550px) {
-    column-count: 2;
+    ul {column-count: 2;}
 }
     
 .profilrps li:not(:first-of-type), .profilsms li:not(:first-of-type), .profilmulti li:not(:first-of-type) {padding-top: 5px;}
