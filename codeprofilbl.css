@@ -28,13 +28,13 @@
 /* LIENS */
 .profilaes table {font-size: 12px;}
 
-@container profilaes (min-width: 360px) {
+@container profilaes (width > 360px) {
   ul {display:grid;grid-template: auto / 1fr 1fr;gap: 10px;width:180px;}
   ul ul {display:block!important;}
   ul li:not(:last-of-type) {margin-bottom: 0px!important;}
 }
 
-@container profilaes (min-width: 550px)) {
+@container profilaes (width > 550px) {
   ul {display:grid;grid-template: auto / 1fr 1fr 1fr;gap: 10px;width:180px;}
   ul ul {display:block!important;}
   ul li:not(:last-of-type) {margin-bottom: 0px!important;}
