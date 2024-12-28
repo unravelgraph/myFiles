@@ -26,3 +26,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+@keyframes crackshipSwitch3 {
+  0%, 15% {transform:translateX(0);
+  }
+  
+  25%, 50% {transform:translateX(calc(var(--crackship_width) * -1));
+    
+  }
+  
+  60%, 75% {
+    transform:translateX(calc(var(--crackship_width) * -2));
+  }
+  
+  85%, 100% {transform:translateX(0);
+  }
+} 
+
+
+@keyframes crackshipSwitch2 {
+  0%, 15% {transform:translateX(0);
+  }
+  
+ 25%, 75% {
+    transform:translateX(calc(var(--crackship_width) * -1));
+  }
+  
+  85%, 100% {transform:translateX(0);
+  }
+} 
