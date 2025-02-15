@@ -58,6 +58,6 @@
 } 
 
 @keyframes crackshipFade {
-  0%, 30% {opacity: 1;}
- 70%, 100% {opacity: 0;}
+  0%, 40% {opacity: 1;}
+ 60%, 100% {opacity: 0;}
 }
