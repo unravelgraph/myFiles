@@ -119,7 +119,7 @@
   overflow: auto;
   background: var(--gradient-10);
   border-radius: 0 var(--rad2) var(--rad2) 0;
-  margin: 10px 15px 15px 15px;;
+  margin: 10px 15px 15px 15px;
 }
 
 /* Conteneur discussion */
@@ -757,7 +757,7 @@ strong.FAM-page-link {
 
 .FAM-msg-text {
   font-size: 14px;
-  background: var(--FAM-msgBackground);
+  background: var(--neutral);
   border-radius: 17px 17px 17px 6px;
   padding: 8px 20px 8px 15px;
 }
