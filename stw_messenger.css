@@ -34,7 +34,7 @@
   z-index: 99;
   visibility: visible;
   opacity: 1;
-  bottom: 130px;
+  bottom: 104px;
   transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
   transition-duration: 700ms;
   grid-template-columns: 100%;
