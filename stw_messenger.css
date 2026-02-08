@@ -21,29 +21,30 @@
 #FAM {
   display: grid;
   grid-template-rows: max-content max-content 1fr;
-  color: var(--FAM-fontClr);
-  font-size: var(--FAM-fontSize);
-  background: var(--FAM-pluginBackground);
+  color: var(--textColor);
+  font-size: var(--normal-size);
+  background: var(--neutral);
+  border-radius:var(--rad1);
+  border:var(--border);
   position: fixed;
-  height: 100%;
-  width: 90%;
+  height: 60%;
+  width: 30%;
   max-width: var(--FAM-windowSize);
-  left: 65px;
+  right: calc(var(--gap) * 2);
   z-index: 99;
   visibility: visible;
   opacity: 1;
-  bottom: 0px;
+  bottom: 130px;
   transition-property: top, right, bottom, left, height, width, margin, opacity, visibility;
   transition-duration: 700ms;
   grid-template-columns: 100%;
-  box-shadow: var(--FAM-shadowBox);
 }
 
 /* Fenetre fermée */
 #FAM[data-hidden="true"] {
   visibility: hidden;
   opacity: 0;
-  left: calc(-100% + 65px);
+  right: calc(0% - 60%);
 }
 
 #FAM.FAM-embedded {
@@ -58,14 +59,12 @@
 
 /* Bouton pour ouvrir la fenetre */
 #FAM-button-open {
-  color: var(--accentClr);
+  color: var(--co1);
   font-size: 18px;
   background-color: var(--neutralDark);
   border-radius: 10px;
   width: 45px;
   height: 45px;
-  left: 10px;
-  top: 15px;
   cursor: pointer;
   transition-property: right;
   transition-duration: 500ms;
@@ -73,21 +72,12 @@
   place-items: center;
 }
 
-#FAM-button-open:hover {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
-}
-
-#FAM[data-hidden="false"] ~ #FAM-button-open {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
-}
-
 /* Entête de la fenetre */
 #FAM-toolbar {
-  color: var(--FAM-titleClr);
+  color: var(--contrast);
+  font:1.1em var(--font-title);
   position: relative;
-  margin: 20px 15px 15px;
+  margin: 20px
 }
 
 #FAM-toolbar-inner {
@@ -99,7 +89,7 @@
 
 /* Bouton flèche de retour */
 .FAM-toolbar-button {
-  color: var(--FAM-button);
+  color: var(--co1);
   font-size: 24px;
   cursor: pointer;
 }
@@ -107,7 +97,7 @@
 /* Titre de la fenetre */
 .FAM-maintitle {
   text-align: left;
-  font-size: var(--FAM-titleSize);
+  font-size: var(--normal-size);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -118,7 +108,7 @@
 
 #FAM-idle,
 .FAM-button {
-  color: var(--FAM-buttonsClr);
+  color: var(--co1);
   cursor: pointer;
 }
 
@@ -127,16 +117,15 @@
   display: grid;
   grid-template-rows: 1fr max-content;
   overflow: auto;
-  background: var(--FAM-chatBackground);
-  border-radius: 10px 10px 0 0;
-  margin: 10px 15px 0 15px;
+  background: var(--gradient-10);
+  border-radius: 0 var(--rad2) var(--rad2) 0;
+  margin: 10px 15px 15px 15px;;
 }
 
 /* Conteneur discussion */
 #FAM-content {
   overflow-y: auto;
   overflow-x: hidden;
-  margin: 0 15px;
   padding: 30px 20px;
   position: relative;
 }
@@ -483,23 +472,23 @@ hr.FAM-hr {
   z-index: -1;
 }
 
+.FAM-chat, .FAM-forum{border-bottom: var(--border);}
+
 .FAM-chat {
   position: relative;
   cursor: pointer;
   display: grid;
   grid-template-columns: max-content 1fr;
-  color: var(--FAM-fontLightClr);
+  color: var(--textColor);
 }
 
 .FAM-chat:hover,
 .FAM-chat:hover a {
-  color: var(--FAM-titleClr);
+  color: var(--co1);
 }
 
 .FAM-chat:hover .FAM-chat-avatar,
-.FAM-chat:hover .FAM-chat-content {
-  background-color: var(--FAM-pluginBackground);
-}
+.FAM-chat:hover .FAM-chat-content {}
 
 .FAM-forum-name,
 .FAM-topic-name {
@@ -1208,7 +1197,7 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab {
-  background: var(--FAM-chatBackground);
+  background: var(--neutralDarker);
   border-radius: 5px;
   position: relative;
   display: inline-block;
@@ -1226,8 +1215,8 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab:hover {
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
+  background: var(--gradient-50);
+    color: var(--textColor);
 }
 
 .FAM-tab:hover i {
@@ -1235,9 +1224,9 @@ blockquote.FAM-codebox > div {
 }
 
 .FAM-tab.FAM-tab-active {
-  font-weight: 700;
-  background: var(--FAM-accentClr);
-  color: var(--FAM-pluginBackground);
+    font-weight: 700;
+    background: var(--gradient-50);
+    color: var(--textColor);
 }
 
 .FAM-tab-name {
