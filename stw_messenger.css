@@ -395,9 +395,9 @@ hr.FAM-hr {
 }
 
 #FAM-actions {
-  background-color: var(--FAM-textareaBackground);
+  background: var(--gradient-10), var(--neutralDarker);
   border-radius: 10px;
-  margin: 10px 35px;
+  margin: 15px;
   align-items: end;
   position: relative;
 }
@@ -749,7 +749,7 @@ strong.FAM-page-link {
 }
 
 .FAM-my-msg .FAM-msg-text {
-  background: var(--FAM-myMsgBackground);
+  background: var(--gradient-50),var(--neutral);
   border-radius: 17px 17px 6px 17px;
   padding: 8px 15px 8px 20px;
   float: right;
