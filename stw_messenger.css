@@ -797,6 +797,10 @@ strong.FAM-page-link {
   display: flex;
   gap: 5px;
   clear: both;
+  text-transform: lowercase;
+  font-family: var(--font);
+  align-items: center;
+  margin-top: 5px;
 }
 
 .FAM-msg-date,
