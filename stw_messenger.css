@@ -498,6 +498,11 @@ hr.FAM-hr {
   text-transform: uppercase;
   grid-column: 1 / span 2;
   font-weight: 600;
+  background: var(--gradient-50);
+  width: fit-content;
+  padding: .3em .8em;
+  border-radius: var(--rad3);
+  border: var(--border);
 }
 
 .FAM-forum-name i,
