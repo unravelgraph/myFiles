@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+/*!
+// ===========================================================
+// Web Font Generator 1.2.0
+// By [https://github.com/tjumyk]
+// ===========================================================
+*/
+
+@font-face {
+    font-family: 'HYXuSTJ';
+    src: url('1626053183.eot'); /* IE9 Compat Modes */
+    src: url('1626053183.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+         url('1626053183.woff') format('woff'), /* Modern Browsers */
+         url('1626053183.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('1626053183.svg#1626053183') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
