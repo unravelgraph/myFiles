@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+/*!
+// ===========================================================
+// Web Font Generator 1.2.0
+// By [https://github.com/tjumyk]
+// ===========================================================
+*/
+
+@font-face {
+    font-family: 'yegenyou';
+    src: url('yegenyou.eot'); /* IE9 Compat Modes */
+    src: url('yegenyou.eot?#iefix') format('embedded-opentype'),  /* IE6-IE8 */
+         url('yegenyou.woff') format('woff'), /* Modern Browsers */
+         url('yegenyou.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('yegenyou.svg#yegenyou') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
