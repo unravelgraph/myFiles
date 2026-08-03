@@ -1,7 +1,7 @@
 .yumo{--persoco3:rgba(231, 115, 71,.6); --persoco2:color-mix(in srgb, var(--co1), var(--co3)); --persoco1: rgba(85, 166, 158, .7);}
 .yu{color:var(--persoco1);}
 .mo{color:var(--persoco3);}
-ul.yumo_inner {width: 50%;position: relative;left: 50%;display:grid;gap:5px;}
+ul.yumo_inner {width: 70%;position: relative;left: 30%;display:grid;gap:5px;}
 ul.yumo_inner li{width:fit-content; max-width:70%; font: italic .8em 'geist mono'; background:var(--transp5); padding:5px 8px; border-radius:10px;}
 li.yu{text-align:left;}
 li.mo{justify-self:end;text-align:right;}
