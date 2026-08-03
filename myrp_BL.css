@@ -2,9 +2,10 @@
 .yu{color:var(--persoco1);}
 .mo{color:var(--persoco3);}
 ul.yumo_inner {width: 50%;position: relative;left: 50%;display:grid;gap:5px;}
-ul.yumo_inner li{width:fit-content; max-width:70%; font: italic .9em 'geist mono'; background:var(--transp5); padding:5px 8px; border-radius:10px;}
+ul.yumo_inner li{width:fit-content; max-width:70%; font: italic .8em 'geist mono'; background:var(--transp5); padding:5px 8px; border-radius:10px;}
+li.yu{text-align:left;}
 li.mo{justify-self:end;text-align:right;}
-ul.yumo_inner li:before{ font: bold.951em var(--font); opacity:.8;}
+ul.yumo_inner li:before{ font: bold 1em var(--font); opacity:.8; text-transform:uppercase;}
 li.yu:before{content:'yu: ';}
 li.mo:before{content:'mo: ';}
 myr{font-weight:bold;color:var(--persoco2);}
