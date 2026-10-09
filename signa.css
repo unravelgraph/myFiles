@@ -1,0 +1,92 @@
+.imgfond {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: 25% 50% 25% / 25% 50% 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    border: 1px solid var(--c22);
+    position: relative;
+    overflow: clip;
+}
+.imgfond:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(45deg,#000,#fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: color;
+}
+.imgfond div {
+    position: relative;
+}
+.imgfond div:nth-of-type(-n+3) {
+    border-bottom: 1px solid var(--c22);
+}
+.imgfond div:nth-of-type(3n+1) {
+    border-right: 1px solid var(--c22);
+}
+.imgfond div:nth-of-type(3n) {
+    border-left: 1px solid var(--c22);
+}
+.imgfond div:nth-of-type(n+7) {
+    border-top: 1px solid var(--c22);
+}
+.imgfond .quote {
+    display: grid;
+    place-items: center;
+    width: calc(150% - 1px);
+    border-bottom-right-radius: 10px;
+    padding: 0 20%;
+    text-align: right;
+    color: var(--txt2);
+    backdrop-filter: blur(2px);
+    line-height: 100%;
+}
+.imgfond .quote+div {
+    border-left: 0;
+}
+.imgfond .star:after {
+    content: '';
+    position: absolute;
+    background: var(--c2);
+    clip-path: polygon(50% 0,60% 40%,100% 50%,60% 60%,50% 100%,40% 60%,0 50%,40% 40%);
+    width: 30px;
+    height: 30px;
+    --widthmove: -15px;
+    right: var(--widthmove);
+    z-index: 9;
+}
+.imgfond .star.small:after {
+    width: 16px;
+    height: 16px;
+    --widthmove: -8px;
+}
+.imgfond .star.linetop:after {
+    bottom: var(--widthmove);
+}
+.imgfond .star.lineright:after {
+    left: var(--widthmove);
+}
+.imgfond .star.linebot:after {
+    top: var(--widthmove);
+}
+.imgfond div:nth-of-type(3):before, .imgfond div:nth-of-type(7):before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--c1);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+.imgfond div:nth-of-type(7):before {
+    background: var(--c4);
+}
